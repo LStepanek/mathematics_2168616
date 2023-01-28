@@ -1,0 +1,356 @@
+################################################################################
+################################################################################
+################################################################################
+
+#### Výpoèty nad IgG protilátkami. ####
+
+
+## -----------------------------------------------------------------------------
+
+k = 1
+
+                  predikovane hodnoty
+pozorovane hodnoty IgG negativni IgG pozitivni
+     IgG negativni             1            17
+     IgG pozitivni             0            43
+
+predikèní pøesnost: 0.721
+preciznost: 0.717
+recall: 1.000
+F1 skóre: 0.835
+threshold: 0.050
+
+
+## -----------------------------------------------------------------------------
+
+k = 2
+
+                  predikovane hodnoty
+pozorovane hodnoty IgG negativni IgG pozitivni
+     IgG negativni             1             8
+     IgG pozitivni             0            55
+
+predikèní pøesnost: 0.875
+preciznost: 0.873
+recall: 1.000
+F1 skóre: 0.932
+threshold: 0.050
+
+
+## -----------------------------------------------------------------------------
+
+k = 3
+
+                  predikovane hodnoty
+pozorovane hodnoty IgG negativni IgG pozitivni
+     IgG negativni             1            14
+     IgG pozitivni             2            48
+
+predikèní pøesnost: 0.754
+preciznost: 0.774
+recall: 0.960
+F1 skóre: 0.857
+threshold: 0.050
+
+
+## -----------------------------------------------------------------------------
+
+k = 4
+
+                  predikovane hodnoty
+pozorovane hodnoty IgG negativni IgG pozitivni
+     IgG negativni             0             9
+     IgG pozitivni             2            53
+
+predikèní pøesnost: 0.828
+preciznost: 0.855
+recall: 0.964
+F1 skóre: 0.906
+threshold: 0.050
+
+
+## -----------------------------------------------------------------------------
+
+k = 5
+
+                  predikovane hodnoty
+pozorovane hodnoty IgG negativni IgG pozitivni
+     IgG negativni             0             9
+     IgG pozitivni             4            48
+
+predikèní pøesnost: 0.787
+preciznost: 0.842
+recall: 0.923
+F1 skóre: 0.881
+threshold: 0.050
+
+
+## -----------------------------------------------------------------------------
+
+k = 6
+
+                  predikovane hodnoty
+pozorovane hodnoty IgG negativni IgG pozitivni
+     IgG negativni             0            11
+     IgG pozitivni             3            47
+
+predikèní pøesnost: 0.770
+preciznost: 0.810
+recall: 0.940
+F1 skóre: 0.870
+threshold: 0.050
+
+
+## -----------------------------------------------------------------------------
+
+k = 7
+
+                  predikovane hodnoty
+pozorovane hodnoty IgG negativni IgG pozitivni
+     IgG negativni             1             6
+     IgG pozitivni             5            51
+
+predikèní pøesnost: 0.825
+preciznost: 0.895
+recall: 0.911
+F1 skóre: 0.903
+threshold: 0.150
+
+
+## -----------------------------------------------------------------------------
+
+k = 8
+
+                  predikovane hodnoty
+pozorovane hodnoty IgG negativni IgG pozitivni
+     IgG negativni             1            13
+     IgG pozitivni             0            49
+
+predikèní pøesnost: 0.794
+preciznost: 0.790
+recall: 1.000
+F1 skóre: 0.883
+threshold: 0.050
+
+
+## -----------------------------------------------------------------------------
+
+k = 9
+
+                  predikovane hodnoty
+pozorovane hodnoty IgG negativni IgG pozitivni
+     IgG negativni             2             8
+     IgG pozitivni             7            48
+
+predikèní pøesnost: 0.769
+preciznost: 0.857
+recall: 0.873
+F1 skóre: 0.865
+threshold: 0.050
+
+
+## -----------------------------------------------------------------------------
+
+k = 10
+
+                  predikovane hodnoty
+pozorovane hodnoty IgG negativni IgG pozitivni
+     IgG negativni             4             7
+     IgG pozitivni             3            48
+
+predikèní pøesnost: 0.839
+preciznost: 0.873
+recall: 0.941
+F1 skóre: 0.906
+threshold: 0.150
+
+
+## -----------------------------------------------------------------------------
+
+MEDIÁNOVÁ MATICE ZÁMÌN (nad k = 1 až k = 10)
+
+                  predikovane hodnoty
+pozorovane hodnoty IgG negativni IgG pozitivni
+     IgG negativni           1.0           9.0
+     IgG pozitivni           2.5          48.0
+
+
+
+################################################################################
+################################################################################
+################################################################################
+
+#### Výpoèty nad IgM protilátkami. ####
+
+
+## -----------------------------------------------------------------------------
+
+k = 1
+
+                  predikovane hodnoty
+pozorovane hodnoty IgM negativni IgM pozitivni
+     IgM negativni             9            20
+     IgM pozitivni             2            30
+
+predikèní pøesnost: 0.639
+preciznost: 0.600
+recall: 0.938
+F1 skóre: 0.732
+threshold: 0.500
+
+
+## -----------------------------------------------------------------------------
+
+k = 2
+
+                  predikovane hodnoty
+pozorovane hodnoty IgM negativni IgM pozitivni
+     IgM negativni            19            17
+     IgM pozitivni            12            16
+
+predikèní pøesnost: 0.547
+preciznost: 0.485
+recall: 0.571
+F1 skóre: 0.525
+threshold: 0.800
+
+
+## -----------------------------------------------------------------------------
+
+k = 3
+
+                  predikovane hodnoty
+pozorovane hodnoty IgM negativni IgM pozitivni
+     IgM negativni            39             3
+     IgM pozitivni            20             3
+
+predikèní pøesnost: 0.646
+preciznost: 0.500
+recall: 0.130
+F1 skóre: 0.207
+threshold: 0.900
+
+
+## -----------------------------------------------------------------------------
+
+k = 4
+
+                  predikovane hodnoty
+pozorovane hodnoty IgM negativni IgM pozitivni
+     IgM negativni            37             1
+     IgM pozitivni            20             6
+
+predikèní pøesnost: 0.672
+preciznost: 0.857
+recall: 0.231
+F1 skóre: 0.364
+threshold: 0.900
+
+
+## -----------------------------------------------------------------------------
+
+k = 5
+
+                  predikovane hodnoty
+pozorovane hodnoty IgM negativni IgM pozitivni
+     IgM negativni            25            12
+     IgM pozitivni             6            18
+
+predikèní pøesnost: 0.705
+preciznost: 0.600
+recall: 0.750
+F1 skóre: 0.667
+threshold: 0.750
+
+
+## -----------------------------------------------------------------------------
+
+k = 6
+
+                  predikovane hodnoty
+pozorovane hodnoty IgM negativni IgM pozitivni
+     IgM negativni            32             8
+     IgM pozitivni            14             7
+
+predikèní pøesnost: 0.639
+preciznost: 0.467
+recall: 0.333
+F1 skóre: 0.389
+threshold: 0.900
+
+
+## -----------------------------------------------------------------------------
+
+k = 7
+
+                  predikovane hodnoty
+pozorovane hodnoty IgM negativni IgM pozitivni
+     IgM negativni             9            18
+     IgM pozitivni             2            34
+
+predikèní pøesnost: 0.683
+preciznost: 0.654
+recall: 0.944
+F1 skóre: 0.773
+threshold: 0.500
+
+
+## -----------------------------------------------------------------------------
+
+k = 8
+
+                  predikovane hodnoty
+pozorovane hodnoty IgM negativni IgM pozitivni
+     IgM negativni            31             2
+     IgM pozitivni            22             8
+
+predikèní pøesnost: 0.619
+preciznost: 0.800
+recall: 0.267
+F1 skóre: 0.400
+threshold: 0.850
+
+
+## -----------------------------------------------------------------------------
+
+k = 9
+
+                  predikovane hodnoty
+pozorovane hodnoty IgM negativni IgM pozitivni
+     IgM negativni            23            12
+     IgM pozitivni            18            12
+
+predikèní pøesnost: 0.538
+preciznost: 0.500
+recall: 0.400
+F1 skóre: 0.444
+threshold: 0.850
+
+
+## -----------------------------------------------------------------------------
+
+k = 10
+
+                  predikovane hodnoty
+pozorovane hodnoty IgM negativni IgM pozitivni
+     IgM negativni            19            16
+     IgM pozitivni            10            17
+
+predikèní pøesnost: 0.581
+preciznost: 0.515
+recall: 0.630
+F1 skóre: 0.567
+threshold: 0.700
+
+
+## -----------------------------------------------------------------------------
+
+MEDIÁNOVÁ MATICE ZÁMÌN (nad k = 1 až k = 10)
+
+                  predikovane hodnoty
+pozorovane hodnoty IgM negativni IgM pozitivni
+     IgM negativni            24            12
+     IgM pozitivni            13            14
+
+
+

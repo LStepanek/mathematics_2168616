@@ -1,0 +1,336 @@
+################################################################################
+################################################################################
+################################################################################
+
+#### Výpoèty nad IgG protilátkami. ####
+
+
+## -----------------------------------------------------------------------------
+
+k = 1
+
+                  predikovane hodnoty
+pozorovane hodnoty negativni pozitivni
+         negativni        11         7
+         pozitivni        20        23
+
+predikèní pøesnost: 0.557
+preciznost: 0.767
+recall: 0.535
+F1 skóre: 0.630
+
+
+## -----------------------------------------------------------------------------
+
+k = 2
+
+                  predikovane hodnoty
+pozorovane hodnoty negativni pozitivni
+         negativni         0         9
+         pozitivni         0        55
+
+predikèní pøesnost: 0.859
+preciznost: 0.859
+recall: 1.000
+F1 skóre: 0.924
+
+
+## -----------------------------------------------------------------------------
+
+k = 3
+
+                  predikovane hodnoty
+pozorovane hodnoty negativni pozitivni
+         negativni         0        15
+         pozitivni         0        50
+
+predikèní pøesnost: 0.769
+preciznost: 0.769
+recall: 1.000
+F1 skóre: 0.870
+
+
+## -----------------------------------------------------------------------------
+
+k = 4
+
+                  predikovane hodnoty
+pozorovane hodnoty negativni pozitivni
+         negativni         0         9
+         pozitivni         0        55
+
+predikèní pøesnost: 0.859
+preciznost: 0.859
+recall: 1.000
+F1 skóre: 0.924
+
+
+## -----------------------------------------------------------------------------
+
+k = 5
+
+                  predikovane hodnoty
+pozorovane hodnoty negativni pozitivni
+         negativni         0         9
+         pozitivni         0        52
+
+predikèní pøesnost: 0.852
+preciznost: 0.852
+recall: 1.000
+F1 skóre: 0.920
+
+
+## -----------------------------------------------------------------------------
+
+k = 6
+
+                  predikovane hodnoty
+pozorovane hodnoty negativni pozitivni
+         negativni         0        11
+         pozitivni         0        51
+
+predikèní pøesnost: 0.823
+preciznost: 0.823
+recall: 1.000
+F1 skóre: 0.903
+
+
+## -----------------------------------------------------------------------------
+
+k = 7
+
+                  predikovane hodnoty
+pozorovane hodnoty negativni pozitivni
+         negativni         0         7
+         pozitivni         0        56
+
+predikèní pøesnost: 0.889
+preciznost: 0.889
+recall: 1.000
+F1 skóre: 0.941
+
+
+## -----------------------------------------------------------------------------
+
+k = 8
+
+                  predikovane hodnoty
+pozorovane hodnoty negativni pozitivni
+         negativni         0        14
+         pozitivni         0        49
+
+predikèní pøesnost: 0.778
+preciznost: 0.778
+recall: 1.000
+F1 skóre: 0.875
+
+
+## -----------------------------------------------------------------------------
+
+k = 9
+
+                  predikovane hodnoty
+pozorovane hodnoty negativni pozitivni
+         negativni         0        10
+         pozitivni         0        55
+
+predikèní pøesnost: 0.846
+preciznost: 0.846
+recall: 1.000
+F1 skóre: 0.917
+
+
+## -----------------------------------------------------------------------------
+
+k = 10
+
+                  predikovane hodnoty
+pozorovane hodnoty negativni pozitivni
+         negativni         0        11
+         pozitivni         0        51
+
+predikèní pøesnost: 0.823
+preciznost: 0.823
+recall: 1.000
+F1 skóre: 0.903
+
+
+## -----------------------------------------------------------------------------
+
+MEDIÁNOVÁ MATICE ZÁMÌN (nad k = 1 až k = 10)
+
+                  predikovane hodnoty
+pozorovane hodnoty negativni pozitivni
+         negativni       0.0       9.5
+         pozitivni       0.0      51.5
+
+
+
+################################################################################
+################################################################################
+################################################################################
+
+#### Výpoèty nad IgM protilátkami. ####
+
+
+## -----------------------------------------------------------------------------
+
+k = 1
+
+                  predikovane hodnoty
+pozorovane hodnoty negativni pozitivni
+         negativni         0        29
+         pozitivni         0        32
+
+predikèní pøesnost: 0.525
+preciznost: 0.525
+recall: 1.000
+F1 skóre: 0.688
+
+
+## -----------------------------------------------------------------------------
+
+k = 2
+
+                  predikovane hodnoty
+pozorovane hodnoty negativni pozitivni
+         negativni        36         0
+         pozitivni        28         0
+
+predikèní pøesnost: 0.562
+preciznost: NaN
+recall: 0.000
+F1 skóre: NaN
+
+
+## -----------------------------------------------------------------------------
+
+k = 3
+
+                  predikovane hodnoty
+pozorovane hodnoty negativni pozitivni
+         negativni        21        21
+         pozitivni        13        10
+
+predikèní pøesnost: 0.477
+preciznost: 0.323
+recall: 0.435
+F1 skóre: 0.370
+
+
+## -----------------------------------------------------------------------------
+
+k = 4
+
+                  predikovane hodnoty
+pozorovane hodnoty negativni pozitivni
+         negativni        16        22
+         pozitivni        14        12
+
+predikèní pøesnost: 0.438
+preciznost: 0.353
+recall: 0.462
+F1 skóre: 0.400
+
+
+## -----------------------------------------------------------------------------
+
+k = 5
+
+                  predikovane hodnoty
+pozorovane hodnoty negativni pozitivni
+         negativni         0        37
+         pozitivni         0        24
+
+predikèní pøesnost: 0.393
+preciznost: 0.393
+recall: 1.000
+F1 skóre: 0.565
+
+
+## -----------------------------------------------------------------------------
+
+k = 6
+
+                  predikovane hodnoty
+pozorovane hodnoty negativni pozitivni
+         negativni        40         0
+         pozitivni        22         0
+
+predikèní pøesnost: 0.645
+preciznost: NaN
+recall: 0.000
+F1 skóre: NaN
+
+
+## -----------------------------------------------------------------------------
+
+k = 7
+
+                  predikovane hodnoty
+pozorovane hodnoty negativni pozitivni
+         negativni        14        13
+         pozitivni        17        19
+
+predikèní pøesnost: 0.524
+preciznost: 0.594
+recall: 0.528
+F1 skóre: 0.559
+
+
+## -----------------------------------------------------------------------------
+
+k = 8
+
+                  predikovane hodnoty
+pozorovane hodnoty negativni pozitivni
+         negativni        33         0
+         pozitivni        30         0
+
+predikèní pøesnost: 0.524
+preciznost: NaN
+recall: 0.000
+F1 skóre: NaN
+
+
+## -----------------------------------------------------------------------------
+
+k = 9
+
+                  predikovane hodnoty
+pozorovane hodnoty negativni pozitivni
+         negativni        35         0
+         pozitivni        30         0
+
+predikèní pøesnost: 0.538
+preciznost: NaN
+recall: 0.000
+F1 skóre: NaN
+
+
+## -----------------------------------------------------------------------------
+
+k = 10
+
+                  predikovane hodnoty
+pozorovane hodnoty negativni pozitivni
+         negativni        17        18
+         pozitivni        11        16
+
+predikèní pøesnost: 0.532
+preciznost: 0.471
+recall: 0.593
+F1 skóre: 0.525
+
+
+## -----------------------------------------------------------------------------
+
+MEDIÁNOVÁ MATICE ZÁMÌN (nad k = 1 až k = 10)
+
+                  predikovane hodnoty
+pozorovane hodnoty negativni pozitivni
+         negativni      19.0      15.5
+         pozitivni      15.5      11.0
+
+
+
